@@ -1,12 +1,42 @@
 body{
-    background-color: #070F2B;
-    color: white;
+    color: grey;
     text-align: center;
     font-family: "Press Start 2P", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0px;
+    padding: 5px;
 }
 
-h1#name{
-    font-size: 3rem;
+.main-container {
+    background-color: #070F2B;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.name.label {
+    font-size: 2rem;
+}
+
+.box{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.label {
+    color: #070F2B;
+    background: #9290C3;
+    border-radius: 5px;
+    height: fit-content;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 10px;
+}
+
+#portrait-img {
+    height: 400px;
+    width: 300px;
+    background: grey;
+    border-radius: 5px;
 }
